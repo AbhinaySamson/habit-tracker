@@ -64,7 +64,7 @@ habit-tracker/
 
 ## 🚀 Live Demo
 
-👉 https://abhinaysamson.github.io/habit-tracker/
+👉 [https://abhinaysamson.github.io/habit-tracker/](https://abhinaysamson.github.io/habit-tracker/)
 
 ---
 
