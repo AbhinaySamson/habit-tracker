@@ -1,0 +1,91 @@
+body {
+  margin: 0;
+  font-family: 'Poppins', sans-serif;
+  background: radial-gradient(circle at top, #0f172a, #020617);
+  color: white;
+}
+
+/* Glass container */
+.container {
+  padding: 20px;
+  max-width: 500px;
+  margin: auto;
+}
+
+/* Header */
+.header h2 {
+  margin: 0;
+  font-size: 26px;
+  font-weight: 600;
+}
+
+.header p {
+  color: #94a3b8;
+  margin-top: 5px;
+}
+
+/* Glass card effect */
+.card {
+  backdrop-filter: blur(15px);
+  background: rgba(255, 255, 255, 0.05);
+  border-radius: 18px;
+  padding: 18px;
+  margin-top: 18px;
+  border: 1px solid rgba(255,255,255,0.1);
+  box-shadow: 0 8px 30px rgba(0,0,0,0.5);
+  transition: transform 0.2s ease, box-shadow 0.2s ease;
+}
+
+.card:hover {
+  transform: scale(1.02);
+}
+
+/* Tasks */
+.task {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin: 14px 0;
+  transition: 0.2s;
+}
+
+.task label {
+  font-size: 15px;
+}
+
+/* Custom checkbox */
+input[type="checkbox"] {
+  width: 22px;
+  height: 22px;
+  accent-color: #22c55e;
+  cursor: pointer;
+}
+
+/* Score */
+.score {
+  text-align: center;
+  font-size: 22px;
+  margin-top: 18px;
+  font-weight: bold;
+  background: linear-gradient(90deg, #22c55e, #4ade80);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+/* History */
+.history-item {
+  background: rgba(255,255,255,0.05);
+  padding: 12px;
+  border-radius: 12px;
+  margin-top: 10px;
+  transition: 0.2s;
+}
+
+.history-item:hover {
+  background: rgba(255,255,255,0.08);
+}
+
+/* Chart container */
+canvas {
+  margin-top: 10px;
+}
