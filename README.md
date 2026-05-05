@@ -1,8 +1,8 @@
 # 🚀 Discipline Tracker App
 
-A simple, powerful, and installable **Habit + Discipline Tracker** built using HTML, CSS, and JavaScript.
+A modern, installable **Habit + Discipline Tracker** built using HTML, CSS, and JavaScript.
 
-This app helps you stay consistent with your daily habits and track your progress over time—all stored locally on your device.
+Designed for personal use, this app helps you stay consistent with daily habits, track progress visually, and follow a structured workout routine—all in one place.
 
 ---
 
@@ -12,10 +12,12 @@ This app helps you stay consistent with your daily habits and track your progres
 * 🔥 Score system (tasks completed / total)
 * 📊 Progress history (day-wise tracking)
 * 📈 Graph visualization using Chart.js
-* 💎 Premium glassmorphism UI
+* 💎 Premium glassmorphism UI with animations
 * 🎉 "Perfect Day" motivation system
 * 📲 Installable as a mobile app (PWA)
 * ⚡ Works offline (Service Worker enabled)
+* 💪 Workout planner with editable routines
+* ⭐ Automatic highlighting of today's workout
 
 ---
 
@@ -35,36 +37,52 @@ This app helps you stay consistent with your daily habits and track your progres
 
 ---
 
+## 💪 Workout Planner
+
+The app includes a dedicated workout page where you can:
+
+* 📅 View workouts for each day (Mon–Sun)
+* 🛑 Mark rest days
+* ✏️ Edit exercises directly in the app
+* 💾 Save changes locally
+* ⭐ Automatically highlight today's workout
+
+---
+
 ## 📊 How It Works
 
 * Each day is stored using browser **localStorage**
 * Every date acts as a unique record
-* Your progress is visualized in:
+* Your progress is visualized through:
 
   * Daily score
-  * History list
-  * Line chart
+  * History tracking
+  * Interactive line chart
 
 ---
 
 ## 📂 Project Structure
 
+```
 habit-tracker/
 │
 ├── index.html
+├── workout.html
 ├── style.css
 ├── script.js
+├── workout.js
 ├── manifest.json
 ├── service-worker.js
 └── icons/
-├── icon-192.png
-└── icon-512.png
+    ├── icon-192.png
+    └── icon-512.png
+```
 
 ---
 
 ## 🚀 Live Demo
 
-👉 [https://abhinaysamson.github.io/habit-tracker/](https://abhinaysamson.github.io/habit-tracker/)
+👉 https://abhinaysamson.github.io/habit-tracker/
 
 ---
 
@@ -74,24 +92,26 @@ habit-tracker/
 2. Tap **⋮ (3 dots)**
 3. Select **"Add to Home Screen"**
 
-Now it works like a real mobile app 📲
+Now it behaves like a real mobile app 📲
 
 ---
 
-## ⚠️ Note
+## ⚠️ Important Notes
 
 * Data is stored locally on your device
-* Clearing browser data will remove history
-* No cloud sync (yet)
+* Clearing browser storage will remove your data
+* Data does not sync across devices
+* Service worker caching may require refresh after updates
 
 ---
 
 ## 🔥 Future Improvements
 
-* 🔁 Streak system
-* ⚖️ Weight tracking graph
-* ☁️ Firebase backup (optional)
-* 🔔 Daily reminder notifications
+* 🔁 Streak system (consistency tracker)
+* ⚖️ Weight tracking + fat loss graph
+* ☁️ Firebase cloud sync
+* 🔔 Daily reminders / notifications
+* 📊 Weekly analytics dashboard
 
 ---
 
@@ -103,6 +123,6 @@ Developed by **Abhinay Samson**
 
 ## 💡 Purpose
 
-This app is built for personal discipline and consistency—not just tracking, but building habits that matter.
+This app is built for **real personal discipline**—not just tracking habits, but building consistency and long-term improvement.
 
 ---
